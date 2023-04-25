@@ -29,13 +29,7 @@ button.size(50,50);
 
 /*ESCOLHA UM DOS CÓDIGOS DE BUTTON E RETIRE O "//" DELE */
 
-// buttonmouseClicked(blow);
-
-// button.mouseClicked(blow);
-
-// button.Clicked(blow);
-
-// button.mouse(blow);
+ button.mouseClicked(blow);
 
 
 }
@@ -55,12 +49,6 @@ function blow() {
 /*ESCOLHA UM DOS CÓDIGOS DE MATTER PARA QUE A BOLA VÁ PARA CIMA E RETIRE O "//" DELE */
   
   
-  // Matter.Body.applyForce(ball.body, { x: 0, y: 0 }, { x: 0, y: -0.05 });
-  
-  // Matter.Body.applyForce(ball.body, { x: 0, y: 0 }, { x: 0.05, y: 0.05 });
-  
-  //Matter.Body.applyForce(ball.body, { x: 0, y: 0 }, { x: 0, y: 0.05 });
-  
-  // Matter.Body.applyForce(ball.body, { x: 0, y: 0 }, { x: -0.05, y: 0.05 });
+  Matter.Body.applyForce(ball.body, { x: 0, y: 0 }, { x: 0, y: -0.05 });
 
 }
